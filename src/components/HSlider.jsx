@@ -25,7 +25,7 @@ const HSlider = () => {
   return (
     <HomeSlider>
       <Slider {...settings}>
-      <Link to = '/categories/1'>
+      <SLink to = '/categories/1'>
         <SliderItem>
           <Slider1>
           <Container>
@@ -33,16 +33,16 @@ const HSlider = () => {
               <Text1>Mobiles</Text1>
               <Text2>At Exciting Prices!</Text2>
               <SButton className="btn mt-4">
-              {/* <Link to='/'>Buy Now</Link> */}
+              <Link to='/categories/1'>Buy Now</Link>
               </SButton>
             </Content>
             </Container>
           </Slider1>
         </SliderItem>
-        </Link>
+        </SLink>
         
 
-        <Link to = '/categories/2'>
+        <SLink to = '/categories/2'>
         <SliderItem>
           <Slider2>
           <Container>
@@ -50,15 +50,15 @@ const HSlider = () => {
               <Text1>Laptops</Text1>
               <Text2>At Exciting prices!</Text2>
               <SButton className="btn mt-4">
-              {/* <Link to='/'>Buy Now</Link> */}
+              <Link to='/categories/2'>Buy Now</Link>
               </SButton>
             </Content>
             </Container>
           </Slider2>
         </SliderItem>
-        </Link>
+        </SLink>
 
-        <Link to = '/categories/3'>
+        <SLink to = '/categories/3'>
         <SliderItem>
           <Slider3>
           <Container>
@@ -66,13 +66,13 @@ const HSlider = () => {
               <Text1>Televisions</Text1>
               <Text2>At Exciting Prices!</Text2>
               <SButton className="btn mt-4">
-              {/* <Link to='/'>Buy Now</Link> */}
+              <Link to='/categories/3'>Buy Now</Link>
               </SButton>
             </Content>
             </Container>
           </Slider3>
         </SliderItem>
-        </Link>
+        </SLink>
       </Slider>
     </HomeSlider>
   );
@@ -82,6 +82,9 @@ export default HSlider;
 const HomeSlider = styled.div `
   // width: 100%;
   overflow: hidden;
+`
+const SLink= styled(Link)`
+  text-decoration: none;
 `
 
 const SliderItem = styled.div `
@@ -121,12 +124,12 @@ const Content = styled.div `
   padding-top: 150px;
 `
 const  Text1 = styled.h4 `
-
+  // text-decoration: none;
 `
 const  Text2 = styled.h1 `
   font-size: 3.2rem;
   font-weight: 600;
-
+  // text-decoration: none;
 `
 
 const SButton = styled.button`
