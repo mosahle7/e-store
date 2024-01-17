@@ -1,0 +1,13 @@
+# Node.js
+node_modules/
+
+# Build files
+build/
+
+# Temporary files
+.tmp/
+
+# Logs
+*.log
+
+# Docker Ignore

@@ -29,7 +29,7 @@ const HSlider = () => {
         <SliderItem>
           <Slider1>
           <Container>
-            <Content>
+            <Content>;
               <Text1>Mobiles</Text1>
               <Text2>At Exciting Prices!</Text2>
               <SButton className="btn mt-4">
