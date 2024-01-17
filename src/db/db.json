@@ -1,0 +1,97 @@
+{
+    "categories": [
+        { "id": 1, "title": "Fridges"},
+        { "id": 2, "title": "Kettles"},
+        { "id": 3, "title": "Televisions"}
+    ],
+    "products": [
+        {
+            "id":1,
+            "catid":1,
+            "title": "Beko Integrated Tall Freezer White",
+            "productcode": "BFFD3577",
+            "image":"cat1pro1.jpeg",
+            "price": 579,
+            "sku" : "577318",
+            "description": "The Beko BFFD3577 Integrated Tall Freezer has a <b>220-litre capacity</b> that's ideal for larger households. It also features <b>six clear storage drawers</b> that make it easy to organise your shopping.<br> <b><marquee>BUY NOW!!!</marquee>",
+            "specs": {"dimensions": "177.5 x 54 x 54.5cm (H x W x D)", "capacity": "220 litres"},
+            "features":["No need to defrost with frost free technology","Suitable for outbuildings"],
+            "stock":20,
+            "stars" :4.7
+        },
+        {
+            "id":2,
+            "catid":1,
+            "title": "Essentials Undercounter Fridge Silver",
+            "productcode": "CUL55520",
+            "image":"cat1pro2.jpeg",
+            "price": 160,
+            "sku" : "287494",
+            "description": "Keep your fresh food tasting great in the Essentials CUL55W20 Undercounter Fridge. Store your <b>dairy, meat, fish, and vegetables with ease.",
+            "specs": {"dimensions": "84.5 x 55.3 x 58.4 cm (H x W x D","capacity": "131 litres"},
+            "stock": 10,
+            "stars" :4.6
+        },
+        {
+            
+            "id":"3",
+            "catid":"1",
+            "title": "Kenwood KTLD60X20 Tall Fridge",
+            "productcode": "KTLD60X20",
+            "image":"cat1pro3.jpeg",
+            "price": 449,
+            "sku" : "287103",
+            "description": "Attractive design\n\nThe Kenwood KTLD60X20 Tall Fridge is <b>spacious and practical with a sleek and modern design</b>. It has a <b>glossy stainless steel finish and an LED display</b>, allowing you to adjust the temperature and change the settings to suit your needs.",
+            "specs": {"dimensions": "185.5 x 59.5 x 71.2 cm (H x W x D)","capacity":"370 litres"},
+            "features":["Water dispenser (no plumbing required)","Food freshness feature to keep your fruits and vegetables fresh"],
+            "stock":3,
+            "stars" :4.3
+        },
+        {
+            
+            "id":"4",
+            "catid":"1",
+            "title": "BEKO BLSD3577 Integrated Tall Fridge",
+            "productcode": "BLSD3577",
+            "image":"cat1pro4.jpeg",
+            "price": "449",
+            "sku" : "784324",
+            "description": "Chiller compartment\n\nGet more room for your weekly shop with the Beko BLSD3577 Integrated Tall Fridge. It offers 309 litres of storage space across 6 shelves, 5 door balconies and a large salad crisper.",
+            "specs": {"dimensions": "186 x 59.5 x 64.5 cm (H x W x D)","capacity":"180 litres"},
+            "features":["Fast chill rapidly lowers the temperature inside the fridge","Open door alarm warns you if the door is remained open for more time"],
+            "stock":5,
+            "stars" :4.7
+        },
+        {
+            
+            "id":"5",
+            "catid":"1",
+            "title": "BEKO BLSD3577 Integrated Tall Fridge",
+            "productcode": "BLSD3577",
+            "image":"cat1pro4.jpeg",
+            "price": "449",
+            "sku" : "784324",
+            "description": "Chiller compartment\n\nGet more room for your weekly shop with the Beko BLSD3577 Integrated Tall Fridge. It offers 309 litres of storage space across 6 shelves, 5 door balconies and a large salad crisper.",
+            "specs": {"dimensions": "186 x 59.5 x 64.5 cm (H x W x D)","capacity":"180 litres"},
+            "features":["Fast chill rapidly lowers the temperature inside the fridge","Open door alarm warns you if the door is remained open for more time"],
+            "stock":5,
+            "stars" :4.1
+        },
+        {
+            
+            "id":"6",
+            "catid":"1",
+            "title": "BEKO BLSD3577 Integrated Tall Fridge",
+            "productcode": "BLSD3577",
+            "image":"cat1pro4.jpeg",
+            "price": "449",
+            "sku" : "784324",
+            "description": "Chiller compartment\n\nGet more room for your weekly shop with the Beko BLSD3577 Integrated Tall Fridge. It offers 309 litres of storage space across 6 shelves, 5 door balconies and a large salad crisper.",
+            "specs": {"dimensions": "186 x 59.5 x 64.5 cm (H x W x D)","capacity":"180 litres"},
+            "features":["Fast chill rapidly lowers the temperature inside the fridge","Open door alarm warns you if the door is remained open for more time"],
+            "stock":5,
+            "stars" :5
+        }
+        
+    ]
+}
