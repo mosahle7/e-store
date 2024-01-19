@@ -3,8 +3,10 @@ import HSlider from './HSlider';
 import WHY from '/.WHY';
 const Home = () => {
   return (
+    <>
     <HSlider />
     <WHY />
+    </>
   );
 };
 
