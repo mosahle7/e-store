@@ -13,9 +13,9 @@ const WHY = () => {
                     <Row>
                         <Col lg="4" md="4" className='mb-2 text-center'>
                         <img src="/assets/item1.svg" alt="A descriptive text about the image" width="100" height="100"/>
-                            <ITitle>Transparent pricing</ITitle>
+                            <ITitle>Clear Prices, Limitless Choices</ITitle>
                             <ItemCont>
-                            No surprises here. See how much you'll pay on cars you like.
+                             Transparent pricing on all tech items. Clarity guaranteed from smartphones to laptops and TVs.
                             </ItemCont>
                         </Col>
 
