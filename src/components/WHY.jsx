@@ -21,17 +21,17 @@ const WHY = () => {
 
                         <Col lg="4" md="4" className='text-center'>
                         <img src="/assets/item2.svg" alt="A descriptive text about the image" width="100" height="100"/>
-                            <ITitle>Minutes, not hours</ITitle>
+                            <ITitle>Easy Shopping, Instant Satisfaction</ITitle>
                             <ItemCont>
-                            No surprises here. See how much you'll pay on cars you like.
+                             Spend minutes to find your perfect gadget. Swift checkout tailored to your needs.
                             </ItemCont>
                         </Col>
 
                         <Col lg="4" md="4" className='text-center'>
                         <img src="/assets/item3.svg" alt="A descriptive text about the image" width="100" height="100"/>
-                            <ITitle>Shop your way</ITitle>
+                            <ITitle>Personalize Your Tech Experience</ITitle>
                             <ItemCont>
-                            No surprises here. See how much you'll pay on cars you like.
+                             Explore smartphones, laptops, and TVs your way. No surprises, just straightforward shopping for all your tech needs.
                             </ItemCont>
                         </Col>
                     </Row>
