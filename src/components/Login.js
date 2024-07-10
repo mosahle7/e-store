@@ -96,15 +96,13 @@ const Login = () => {
 
     
     login();
-    try{
+  
     const user = {
       name: form.name,
       email: form.email,
       password: form.password,
     }
 
-
-    
     httpAddUser(user)
     .then(() => {
       navigate(-1);
