@@ -105,13 +105,13 @@ const Login = () => {
 
 
     
-    await httpAddUser(user);
-
-    navigate(-1);
-    }
-    catch(err) {
-      console.error('Failed to add user: ',error)
-    }
+    httpAddUser(user)
+    .then(() => {
+      navigate(-1);
+    })
+    .catch((error) => {
+      console.error('Failed to add user: ', error);
+    })
   };
   
   const handleBlur = (ev) => { 
