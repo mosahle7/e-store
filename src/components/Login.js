@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 
+const {httpAddUser} = require('../userFetcher')
+
 
 const Login = () => {
   const {login, logout, logged} = useAuth();
@@ -91,9 +93,23 @@ const Login = () => {
     if (disabled()) {
       return;
     }
-  
+
+    
     login();
+    try{
+    const user = {
+      name: form.name,
+      email: form.email,
+      password: form.password,
+    }
+
+    await httpAddUser(user);
+
     navigate(-1);
+    }
+    catch(err) {
+      console.error('Failed to add user: ',error)
+    }
   };
   
   const handleBlur = (ev) => { 
@@ -168,7 +184,7 @@ const Login = () => {
         <Input>
         <img src="assets/password.png" alt="" />
         <Inp type="password" name='password' placeholder='Password' onChange={handleChange} onBlur={handleBlur} minLength="6" invalid={showError('password')} required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"/>
-        {/* {showError('password') &&(
+        {/* {showError('password') &&(Login
           <span>{errorMessages.password}</span>
         )} */}
         </Input>
@@ -183,7 +199,7 @@ const Login = () => {
       </SubmitContainer>
     </Container>
    
-  </Page>
+  </Page>Login
   </form>
   );
 };
