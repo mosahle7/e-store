@@ -7,7 +7,7 @@ const WHY = () => {
         {/* <Container> */}
             <Content>
                 <Title className = "mb-5 text-center">
-                    Why Used Cars & Bikes?
+                    Why mSt Store?
                 </Title>
                 <Container>
                     <Row>
